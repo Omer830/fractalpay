@@ -41,6 +41,8 @@ php artisan module:seed --all --force
 # Bring the application back up
 php artisan down
 php artisan up
+php artisan down
+php artisan up
 
 # Restart supervisor
 sudo supervisorctl restart fractalpay-worker:*
