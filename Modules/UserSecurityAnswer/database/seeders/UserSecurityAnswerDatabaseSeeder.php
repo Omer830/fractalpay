@@ -1,0 +1,16 @@
+<?php
+
+namespace Modules\UserSecurityAnswer\Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class UserSecurityAnswerDatabaseSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        // $this->call([]);
+    }
+}

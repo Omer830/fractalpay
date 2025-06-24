@@ -1,0 +1,11 @@
+{
+    "name": "UserSecurityAnswer",
+    "alias": "usersecurityanswer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserSecurityAnswer\\Providers\\UserSecurityAnswerServiceProvider"
+    ],
+    "files": []
+}

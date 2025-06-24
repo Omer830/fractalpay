@@ -1,0 +1,83 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-d7YXhGft.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CR81LpcS.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-Tl65vtBW.css"
+    ],
+    "assets": [
+      "assets/banner-BjTKpZ3P.png",
+      "assets/owner-profile-CtNQKNf-.png",
+      "assets/Male-D5enTXXU.png",
+      "assets/Female-D2fsEZfS.png",
+      "assets/success-B--n5hBZ.png",
+      "assets/img-placeholder-Dh89DVgG.jpg",
+      "assets/Picture-DhZEdC5I.png",
+      "assets/undraw-mock-BaZhd3eW.png",
+      "assets/welcome-video-BtiQXf5j.mp4",
+      "assets/tree-C4csKVWd.png",
+      "assets/welcome-banner-CI713npP.png",
+      "assets/welcom-screen-bg-C7JOFZh1.png",
+      "assets/loading-C7uPTD9A.gif"
+    ]
+  },
+  "resources/js/assets/images/Female.png": {
+    "file": "assets/Female-D2fsEZfS.png",
+    "src": "resources/js/assets/images/Female.png"
+  },
+  "resources/js/assets/images/Male.png": {
+    "file": "assets/Male-D5enTXXU.png",
+    "src": "resources/js/assets/images/Male.png"
+  },
+  "resources/js/assets/images/Picture.png": {
+    "file": "assets/Picture-DhZEdC5I.png",
+    "src": "resources/js/assets/images/Picture.png"
+  },
+  "resources/js/assets/images/banner.png": {
+    "file": "assets/banner-BjTKpZ3P.png",
+    "src": "resources/js/assets/images/banner.png"
+  },
+  "resources/js/assets/images/img-placeholder.jpg": {
+    "file": "assets/img-placeholder-Dh89DVgG.jpg",
+    "src": "resources/js/assets/images/img-placeholder.jpg"
+  },
+  "resources/js/assets/images/loading.gif": {
+    "file": "assets/loading-C7uPTD9A.gif",
+    "src": "resources/js/assets/images/loading.gif"
+  },
+  "resources/js/assets/images/owner-profile.png": {
+    "file": "assets/owner-profile-CtNQKNf-.png",
+    "src": "resources/js/assets/images/owner-profile.png"
+  },
+  "resources/js/assets/images/success.png": {
+    "file": "assets/success-B--n5hBZ.png",
+    "src": "resources/js/assets/images/success.png"
+  },
+  "resources/js/assets/images/tree.png": {
+    "file": "assets/tree-C4csKVWd.png",
+    "src": "resources/js/assets/images/tree.png"
+  },
+  "resources/js/assets/images/undraw-mock.png": {
+    "file": "assets/undraw-mock-BaZhd3eW.png",
+    "src": "resources/js/assets/images/undraw-mock.png"
+  },
+  "resources/js/assets/images/welcom-screen-bg.png": {
+    "file": "assets/welcom-screen-bg-C7JOFZh1.png",
+    "src": "resources/js/assets/images/welcom-screen-bg.png"
+  },
+  "resources/js/assets/images/welcome-banner.png": {
+    "file": "assets/welcome-banner-CI713npP.png",
+    "src": "resources/js/assets/images/welcome-banner.png"
+  },
+  "resources/js/assets/images/welcome-video.mp4": {
+    "file": "assets/welcome-video-BtiQXf5j.mp4",
+    "src": "resources/js/assets/images/welcome-video.mp4"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    image: fractal8           # replace with your built image name if needed
+    container_name: fractalpay
+    ports:
+      - "9002:80"
+    env_file:
+      - /home/fractalpay-stage.txt
+    restart: unless-stopped
+

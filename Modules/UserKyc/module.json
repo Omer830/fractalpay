@@ -1,0 +1,14 @@
+{
+    "name": "UserKyc",
+    "alias": "userkyc",
+    "dependencies": [
+        "Options"
+    ],
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserKyc\\Providers\\UserKycServiceProvider"
+    ],
+    "files": []
+}

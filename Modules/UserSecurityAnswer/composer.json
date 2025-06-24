@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/usersecurityanswer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserSecurityAnswer\\": "app/",
+            "Modules\\UserSecurityAnswer\\Database\\Factories\\": "database/factories/",
+            "Modules\\UserSecurityAnswer\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\UserSecurityAnswer\\Tests\\": "tests/"
+        }
+    }
+}

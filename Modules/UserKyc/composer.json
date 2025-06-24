@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/userkyc",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserKyc\\": "app/",
+            "Modules\\UserKyc\\Database\\Factories\\": "database/factories/",
+            "Modules\\UserKyc\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\UserKyc\\Tests\\": "tests/"
+        }
+    }
+}

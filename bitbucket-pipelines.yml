@@ -1,0 +1,14 @@
+image: php:8.2
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Deploy to Staging Server
+          caches:
+            - composer
+          script:
+            - apt-get update && apt-get install -y unzip
+            - apt-get install -y openssh-client
+            - ssh ubuntu@3.107.144.145 'cd /var/www/fractalpay-inertia && bash -s' < ./deploy.sh
+            - echo "Deployment completed."

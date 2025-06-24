@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pointer{
+    cursor: pointer;
+}
+/* Styles for positioning toast messages on the right */
+.el-message-right {
+    position: fixed;
+    right: 20px !important;  /* Distance from the right edge of the viewport */
+    top: 20px;
+    left: 0 !important;/* Distance from the top of the viewport */
+    margin-left: auto !important;
+    transform: none !important;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/*.el-select__wrapper {*/
+/*    min-height: 54px !important;*/
+/*    font-size: 1rem !important;*/
+/*    padding-right: 3rem !important;*/
+/*}*/
+/* HTML:
+ <div class="loader-main">
+    <div class="loader"></div>
+ </div>
+   */
+.loader-main {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: flex; /* Added */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.loader {
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/loading.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1000;
+}
+/*.loader {*/
+/*    width: fit-content;*/
+/*    height: 40px;*/
+/*    font-weight: bold;*/
+/*    font-family: monospace;*/
+/*    font-size: 30px;*/
+/*    background: radial-gradient(circle closest-side,#4682be 94%,#0000) right/calc(200% - 1em) 100%;*/
+/*    animation: l24 1s infinite alternate linear;*/
+/*    position: fixed;*/
+/*    z-index: 1000;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    align-content: center;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+
+/*}*/
+/*.loader::before {*/
+/*    content: "Loading...";*/
+/*    line-height: 1em;*/
+/*    color: #0000;*/
+/*    background: inherit;*/
+/*    background-image: radial-gradient(circle closest-side,#fff 94%,#000);*/
+/*    -webkit-background-clip:text;*/
+/*    background-clip:text;*/
+/*}*/
+
+/*@keyframes l24{*/
+/*    100%{background-position: left}*/
+/*}*/
+hr{
+    margin: 15px 0px;
+}

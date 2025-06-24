@@ -1,0 +1,20 @@
+{
+    "Blog": true,
+    "User": true,
+    "Auth": true,
+    "UserKyc": true,
+    "Profile": true,
+    "Dashboard": true,
+    "Insurance": true,
+    "Wallet": true,
+    "Investment": true,
+    "ExpenseTracker": true,
+    "Documents": true,
+    "Options": true,
+    "PaymentMethod": true,
+    "Invitation": true,
+    "SecurityQuestion": true,
+    "UserSecurityAnswer": true,
+    "Notifications": true,
+    "Notification": true
+}

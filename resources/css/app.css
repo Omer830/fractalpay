@@ -1,0 +1,47 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.el-message-right {
+    position: fixed;
+    right: 20px !important;  /* Distance from the right edge of the viewport */
+    top: 20px;
+    left: 0 !important;/* Distance from the top of the viewport */
+    margin-left: auto !important;
+    transform: none !important;
+}
+
+
+div[id^="el-popper-container-"] {
+    position: relative;
+}
+.el-popper-container {
+    position: absolute !important; /* Ensures it appears in the correct place */
+    z-index: 1000; /* Brings it above other elements */
+    display: block !important; /* Makes sure it's visible */
+}
+.el-popper.is-pure {
+    /*bottom: 80px !important;*/
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__wrapper{
+    width: 100% !important;
+
+}
+.el-input__wrapper{
+    height: 54px !important;
+    border-radius: 8px !important;
+
+}
+.el-input__prefix{
+    position: absolute;
+    right: 5px;
+}
+.el-input .el-input__icon{
+    color: #4682be !Important ;
+    font-size: 20px !important;
+}

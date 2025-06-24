@@ -1,0 +1,11 @@
+{
+    "name": "SecurityQuestion",
+    "alias": "securityquestion",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SecurityQuestion\\Providers\\SecurityQuestionServiceProvider"
+    ],
+    "files": []
+}
